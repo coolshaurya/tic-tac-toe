@@ -12,47 +12,48 @@
   <header>
     <h1>Tic-Tac-Toe Game</h1>
   </header>
+  <main>
+    Turn :
+    <span class="turn">X</span>
 
-  Turn :
-  <span class="turn">X</span>
+    <table class="playGrid">
+      <tr>
+        <td>
+          <button data-cell="0" data-cell-x="1" data-cell-y="1"></button>
+        </td>
+        <td>
+          <button data-cell="1" data-cell-x="1" data-cell-y="2"></button>
+        </td>
+        <td>
+          <button data-cell="2" data-cell-x="1" data-cell-y="3"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button data-cell="3" data-cell-x="2" data-cell-y="1"></button>
+        </td>
+        <td>
+          <button data-cell="4" data-cell-x="2" data-cell-y="2"></button>
+        </td>
+        <td>
+          <button data-cell="5" data-cell-x="2" data-cell-y="3"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button data-cell="6" data-cell-x="3" data-cell-y="1"></button>
+        </td>
+        <td>
+          <button data-cell="7" data-cell-x="3" data-cell-y="2"></button>
+        </td>
+        <td>
+          <button data-cell="8" data-cell-x="3" data-cell-y="3"></button>
+        </td>
+      </tr>
+    </table>
 
-  <table class="playGrid">
-    <tr>
-      <td>
-        <button data-cell="0" data-cell-x="1" data-cell-y="1"></button>
-      </td>
-      <td>
-        <button data-cell="1" data-cell-x="1" data-cell-y="2"></button>
-      </td>
-      <td>
-        <button data-cell="2" data-cell-x="1" data-cell-y="3"></button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <button data-cell="3" data-cell-x="2" data-cell-y="1"></button>
-      </td>
-      <td>
-        <button data-cell="4" data-cell-x="2" data-cell-y="2"></button>
-      </td>
-      <td>
-        <button data-cell="5" data-cell-x="2" data-cell-y="3"></button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <button data-cell="6" data-cell-x="3" data-cell-y="1"></button>
-      </td>
-      <td>
-        <button data-cell="7" data-cell-x="3" data-cell-y="2"></button>
-      </td>
-      <td>
-        <button data-cell="8" data-cell-x="3" data-cell-y="3"></button>
-      </td>
-    </tr>
-  </table>
-
-  <button class="reset">Restart</button>
+    <button class="reset">Restart</button>
+  </main>
   <link rel="stylesheet" href="main.css">
   <script src="main.js"></script>
 </body>
